@@ -17,7 +17,8 @@ export default function App() {
             This project was coded by{" "}
             <a
               href="https://www.shecodes.io/graduates/92144-tshilidzi-mulibana"
-              target="_blank"
+              target="_blank "
+              rel="noopener noreferrer"
             >
               {" "}
               Tshilidzi Mulibana
@@ -26,6 +27,7 @@ export default function App() {
             <a
               href="https://github.com/Chichiprecious1/tshilidzis-dictionary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
               GitHub
@@ -34,6 +36,7 @@ export default function App() {
             <a
               href="https://tshilidzis-dictionary.netlify.app/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
               Netlify
