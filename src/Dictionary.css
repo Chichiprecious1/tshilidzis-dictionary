@@ -1,0 +1,110 @@
+.Dictionary {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 0 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.Dictionary .Card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.Dictionary .SearchRow {
+  display: flex;
+  justify-content: center;
+}
+
+.Dictionary input[type="search"] {
+  width: min(520px, 100%);
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  font-size: 16px;
+}
+
+.Dictionary input[type="search"]:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.15);
+}
+
+.Results {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.WordHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.WordHeader h2 {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+}
+
+.Phonetics {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.Phonetics code {
+  background: rgba(108, 99, 255, 0.08);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.AudioBtn {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+  background: #6c63ff;
+  color: white;
+  font-weight: 600;
+}
+
+.AudioBtn:disabled {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}
+
+.MeaningBlock {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.PartOfSpeech {
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.Definition {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.Example {
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.65);
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .WordHeader h2 {
+    font-size: 28px;
+  }
+}
